@@ -4,6 +4,11 @@ version = "0.1.0"
 authors = ["David <dn@vestico.de>"]
 edition = "2018"
 
+build = "build.rs"
+
+
+[lib]
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
-[dependencies]
+[build-dependencies]
+bindgen = "0.56.0"
