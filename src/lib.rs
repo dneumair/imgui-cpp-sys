@@ -1,1 +1,2 @@
-pub use bindings;
+pub mod bindings;
+pub use bindings as sys;
